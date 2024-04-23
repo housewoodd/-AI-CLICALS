@@ -1,0 +1,35 @@
+
+
+	body {
+		font-size: 14px;
+		background: #f6f6f6;
+
+	<div id="container">
+	<div id="left">左边（left） </div>
+	<div id="right">右边（right） </div>
+	</div>
+
+
+		  /* CSS样式代码：主面板样式*/
+	  #container {
+		  width:980px;
+		  height:650px;
+		  margin:0px auto;/*主面板DIV居中*/
+		  background-color:grey;
+	  }
+	/*左边面板样式*/
+	#left {
+		width:265px;
+		height:100%;
+		float:left ;/*左边面板右浮动*/
+		background-color:green;
+	}
+	/*右边面板样式*/
+	#right {
+		width:715px;
+		height:100%;
+		float:right ;/*左边面板右浮动*/
+		background-color:blue;
+	}
+
+	}
